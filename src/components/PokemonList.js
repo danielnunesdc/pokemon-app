@@ -68,7 +68,7 @@ const PokemonList = () => {
           <input
             type="text"
             className="form-control"
-            placeholder="Search by name"
+            placeholder="Buscar por nome"
             value={searchName}
             onChange={onChangeSearchName}
           />
@@ -78,13 +78,13 @@ const PokemonList = () => {
               type="button"
               onClick={findByName}
             >
-              Search
+              Buscar
             </button>
           </div>
         </div>
       </div>
       <div className="col-md-6">
-        <h4>Pokemon List</h4>
+        <h4>Lista de Pokemons</h4>
 
         <ul className="list-group">
           {pokemon &&
@@ -105,7 +105,7 @@ const PokemonList = () => {
           className="m-3 btn btn-sm btn-danger"
           onClick={removeAllPokemon}
         >
-          Remove All
+          Remover Todos
         </button>
       </div>
       <div className="col-md-6">
@@ -114,7 +114,7 @@ const PokemonList = () => {
             <h4>Pokemon</h4>
             <div>
               <label>
-                <strong>Name:</strong>
+                <strong>Nome:</strong>
               </label>{' '}
               {currentPokemon.name}
             </div>
@@ -133,19 +133,19 @@ const PokemonList = () => {
             </div>
             <div>
               <label>
-                <strong>Attack:</strong>
+                <strong>Ataque:</strong>
               </label>{' '}
               {currentPokemon.attack}
             </div>
             <div>
               <label>
-                <strong>Defense:</strong>
+                <strong>Defesa:</strong>
               </label>{' '}
               {currentPokemon.defense}
             </div>
             <div>
               <label>
-                <strong>Speed:</strong>
+                <strong>Velocidade:</strong>
               </label>{' '}
               {currentPokemon.speed}
             </div>
@@ -166,7 +166,7 @@ const PokemonList = () => {
         ) : (
           <div>
             <br />
-            <p>Please click on a Pokemon...</p>
+            <p>Por favor clique em um Pokemon...</p>
           </div>
         )}
       </div>
