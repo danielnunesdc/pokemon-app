@@ -45,4 +45,4 @@ This project is under the MIT license. For more details visit [LICENSE](LICENSE.
 
 ---
 
-Made with :coffee: and ♥ by Daniel Nunes :wave: [Twitter](https://twitter.com/danielnunesdc)
+Made with :coffee: and ♥ by Daniel Nunes :wave:
